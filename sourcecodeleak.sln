@@ -1,13 +1,30 @@
 using LunaV3;
 
 public class RiftMP
+{
+    private string api = "https://riftmpapi.com";
+    private string accountManager = "https://riftmpaccountmanager";
 
-{
- api = https://riftmpapi.com
- if onlogin launch https://riftmpaccountmanager
-{
-if inject 
-start match
-host match on = 127.0.0.1:8512;
- }
+    public void OnLogin()
+    {
+        LaunchAccountManager();
+    }
+
+    public void LaunchAccountManager()
+    {
+    }
+
+    public void Inject()
+    {
+        StartMatch();
+    }
+
+    public void StartMatch()
+    {
+        HostMatch("127.0.0.1:8512");
+    }
+
+    public void HostMatch(string ipAddress)
+    {
+    }
 }
