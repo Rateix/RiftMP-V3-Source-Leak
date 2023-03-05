@@ -1,0 +1,13 @@
+using LunaV3;
+
+public class RiftMP
+
+{
+ api = https://riftmpapi.com
+ if onlogin launch https://riftmpaccountmanager
+{
+if inject 
+start match
+host match on = 127.0.0.1:8512;
+ }
+}
